@@ -1,0 +1,6 @@
+@import "./mixins.scss";
+.home{
+    padding: 15% 5%;
+    @include above-lg{
+    padding:10% 10%;}
+}
